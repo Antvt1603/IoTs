@@ -7,17 +7,17 @@ y = 10
 
 
 sum_result = x + y
-print("Tổng của x và y là:", sum_result)
+print(" x+y=", sum_result)
 
 
 for i in range(5):
-    print("Giá trị của i là:", i)
+    print("i=", i)
 
 
 if x < y:
-    print("x nhỏ hơn y")
+    print("x < y")
 else:
-    print("x lớn hơn hoặc bằng y")
+    print("x >= y")
 
 
 def multiply(a, b):
